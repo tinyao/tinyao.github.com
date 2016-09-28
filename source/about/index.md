@@ -8,9 +8,6 @@ title: About
 
 最近一两年，出于兴趣，还尝试做了些设计作品，你可以在我的 [Lofter](http://tinyao.lofter.com) 看到。然后最近开始玩起滑板来了，校园代步。
 
-
 > Email：(cz.tinyao % gmail.com)
-> Github：[tinyao](http://github.com/tinyao)，还没什么好 repo
+> Github：[tinyao](http://github.com/tinyao)
 > 你还以在这些地方找到我：[微博](http://weibo.com/yaochz) &nbsp;·&nbsp; [Twitter](https://twitter.com/tinyao_cz) &nbsp;·&nbsp; [Google+](https://plus.google.com/103381302231555258760) &nbsp;·&nbsp; [Instagram](http://instagram.com/tinyao)
-
-
