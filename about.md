@@ -12,7 +12,7 @@ title: 关于我
 * [有饭](https://fan.zico.im) - 白白的饭否 Android 客户端 <code class="about-tag">设计</code> <code class="about-tag">开发</code>
 * [书圈](https://zico.im/boocle) - 藏书管理发现应用 (停运) <code class="about-tag">设计</code> <code class="about-tag">开发</code>
 * [心声](http://xinsheng.im/) - 让听障者的世界变得温暖一点 <code class="about-tag">开发</code>
-* 味你 - 你永远不知道明天的午餐会有多美好 (停运) <code class="about-tag">设计</code>
+* 味你 - 你永远不知道明天的午餐会多美好 (停运) <code class="about-tag">设计</code>
 
 你可以在这些地方找到我：
 
