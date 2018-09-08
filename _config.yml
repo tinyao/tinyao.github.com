@@ -1,0 +1,44 @@
+# Site Info
+title:              "皂皂的博客"
+description:        "关于生活成长的碎碎念"
+author_name:        "皂皂" # change this to your name
+logo_url:           http://yczim.qiniudn.com/author_avatar.jpg # Get it from GitHub API: https://api.github.com/users/<username>
+
+# Site Settings
+url:                https://tinyao.me # main url
+permalink:          /:title # Post permalink
+timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
