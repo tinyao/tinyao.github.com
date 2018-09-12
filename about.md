@@ -44,4 +44,4 @@ title: 关于我
   </a>
 </div>
 
-[https://telegram.me/tinyao](https://telegram.org/tinyao)
+[https://telegram.me/tinyao](https://telegram.me/tinyao)
