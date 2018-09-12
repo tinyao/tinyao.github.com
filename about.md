@@ -14,34 +14,34 @@ title: 关于我
 * [书圈](http://tinyao.lofter.com/post/7da98_daf50c) - 管理藏书、以书会友 (停运) <code class="about-tag">设计</code> <code class="about-tag">开发</code>
 * [味你](http://tinyao.lofter.com/post/7da98_9825eba) - 猜不到的工作餐订阅服务 (停运) <code class="about-tag">设计</code>
 
---
-
-[https://telegram.org/tinyao](https://telegram.org/tinyao)
+<hr>
 
 <div class="social">
-  <a class="level-item" href="https://github.com/tinyao">
-    <span class="icon">
+  <a href="https://github.com/tinyao">
+    <span>
       <i class="fa fa-github"></i>
     </span>
   </a>
-  <a class="level-item" href="https://dribbble.com/tinyao">
-    <span class="icon">
+  <a href="https://dribbble.com/tinyao">
+    <span>
       <i class="fa fa-dribbble"></i>
     </span>
   </a>
-  <a class="level-item" href="https://instagram.com/tinyao">
+  <a href="https://instagram.com/tinyao">
     <span class="icon">
       <i class="fa fa-instagram"></i>
     </span>
   </a>
-  <a class="level-item" href="http://weibo.com/yaochz">
+  <a href="http://weibo.com/yaochz">
     <span class="icon">
       <i class="fa fa-weibo"></i>
     </span>
   </a>
-  <a class="level-item" href="https://twitter.com/yaodroid">
-    <span class="icon">
+  <a href="https://twitter.com/tinyao_cz">
+    <span>
       <i class="fa fa-twitter"></i>
     </span>
   </a>
 </div>
+
+[https://telegram.org/tinyao](https://telegram.org/tinyao)
