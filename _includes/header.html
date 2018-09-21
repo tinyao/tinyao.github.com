@@ -1,4 +1,4 @@
-<aside class="logo">
+<!-- <aside class="logo"> -->
 
 	{% if page.url == '/index.html' or page.url == '/' %}
 		{% assign link = '/about' %}
@@ -8,9 +8,23 @@
 		{% assign prompt = '返回首页' %}
 	{% endif %}
 
-	<a href="{{ link | prepend: site.baseurl | prepend: site.url }}">
+	<!-- <a href="{{ link | prepend: site.baseurl | prepend: site.url }}">
 		<img src="{{ site.logo_url }}" class="logo-avatar">
 	</a>
-	<span class="logo-prompt code">{{ prompt }}</span>
+	<span class="logo-prompt code">{{ prompt }}</span> -->
 
-</aside>
+<!-- </aside> -->
+
+<section class="nav">
+	<div class="navhome">
+		<a class="nav-logo" href="{{ link | prepend: site.baseurl | prepend: site.url }}">
+			<img src="{{ site.logo_url }}" class="avatar"/>
+		</a>
+		<div class="author">
+			<div class="author-name">TINYAO</div>
+			<div class="author-intro"">行进中的产品设计师，Android 开发者。<a href="/about">MORE ☛</a></div>
+		</div>
+	</div>
+	<div class="divider"></div>
+</section>
+
