@@ -5,7 +5,7 @@
 		{% assign prompt = '关于我' %}
 	{% else %}
 		{% assign link = '/' %}
-		{% assign prompt = '返回首页' %}
+		{% assign prompt = '回首页' %}
 	{% endif %}
 
 	<!-- <a href="{{ link | prepend: site.baseurl | prepend: site.url }}">
@@ -19,6 +19,7 @@
 	<div class="navhome">
 		<a class="nav-logo" href="{{ link | prepend: site.baseurl | prepend: site.url }}">
 			<img src="{{ site.logo_url }}" class="avatar"/>
+			<span class="tooltiptext">{{ prompt }}</span>
 		</a>
 		<div class="author">
 			<div class="author-name">皂皂 TINYAO</div>

@@ -571,3 +571,35 @@ code.about-tag {
     }
   }
 }
+
+.nav-logo {
+  .tooltiptext {
+    visibility: hidden;
+    font-size: 10px;
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    margin-top: 4px;
+    padding: 2px 14px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      bottom: 100%;  /* At the top of the tooltip */
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent #999 transparent;
+    }
+  }
+
+  &:hover {
+    .tooltiptext {
+      visibility: visible;
+    }
+  }
+}
