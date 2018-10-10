@@ -3,7 +3,7 @@ date: 2015-06-06 19:24
 title: '[译] 在 Material Design 中表现品牌性'
 ---
 
-![0_article_banner](http://yczim.qiniudn.com/2017-03-26-0_article_banner.png)
+![0_article_banner]({{ site.cdn_url }}/blog/posts/2017-03-26-0_article_banner.png)
 
 > Material Design 提供了设计实用精美软件的一个系统方法。但如何将你的产品品牌融入到这个设计框架里？这里我们制作了一份在实践 Material Design 的同时保持品牌性的指南。
 
@@ -13,27 +13,27 @@ title: '[译] 在 Material Design 中表现品牌性'
 
 ## Brand personas
 
-![1_app_pesto](http://yczim.qiniudn.com/2017-03-26-1_app_pesto.jpg)
+![1_app_pesto]({{ site.cdn_url }}/blog/posts/2017-03-26-1_app_pesto.jpg)
 
 **Pesto**: 一个现代私厨应用，帮助你发现、分享和保存菜谱。看起来给年轻人精心设计的。界面设计让人感觉就像在翻阅一本精美的菜谱书。Material Design 关注点：[图标](https://www.google.com/design/spec/style/icons.html)、[图像](https://www.google.com/design/spec/style/imagery.html)、[颜色](https://www.google.com/design/spec/style/color.html)
 
-![2_app_craneair](http://yczim.qiniudn.com/2017-03-26-2_app_craneair.jpg)
+![2_app_craneair]({{ site.cdn_url }}/blog/posts/2017-03-26-2_app_craneair.jpg)
 
 **Crane Air**: 一个简洁的航班服务的应用。Material Design 关注点：[文字排版](https://www.google.com/design/spec/style/typography.html)
 
-![3_app_pinch](http://yczim.qiniudn.com/2017-03-26-3_app_pinch.jpg)
+![3_app_pinch]({{ site.cdn_url }}/blog/posts/2017-03-26-3_app_pinch.jpg)
 
 **Pinch**: 一个用来发现和收集激发灵感的图片和项目的应用。Material Design 关注点：[动效](https://www.google.com/design/spec/animation/authentic-motion.html)
 
-![4_app_abisko](http://yczim.qiniudn.com/2017-03-26-4_app_abisko.jpg)
+![4_app_abisko]({{ site.cdn_url }}/blog/posts/2017-03-26-4_app_abisko.jpg)
 
 **Abisko**: 一个滑雪助手应用，可以帮你检查环境条件、购买机票、订房、直升机等。醒目生动的界面能够吸引运动、滑雪爱好者。Material Design 关注点：[图标](iconography)、[图片](https://www.google.com/design/spec/style/imagery.html)、[颜色](https://www.google.com/design/spec/style/color.html)
 
-![5_app_shrine](http://yczim.qiniudn.com/2017-03-26-5_app_shrine.jpg)
+![5_app_shrine]({{ site.cdn_url }}/blog/posts/2017-03-26-5_app_shrine.jpg)
 
 **Shrine**: 一个购物应用，受众是年轻的，喜欢DIY，对独立小批量零售感兴趣的人。漂亮的地方在于明亮、轻快、关注产品内容。Material Design 关注点：[图片](https://www.google.com/design/spec/style/imagery.html)、[颜色](https://www.google.com/design/spec/style/color.html)
 
-![6_app_thefortnightly](http://yczim.qiniudn.com/2017-03-26-6_app_thefortnightly.jpg)
+![6_app_thefortnightly]({{ site.cdn_url }}/blog/posts/2017-03-26-6_app_thefortnightly.jpg)
 
 **The Fortnightly**: 一个精确到分钟级的热点话题的新闻客户端。具有经典、报纸的美感。Material Design 关注点：[字体](https://www.google.com/design/spec/style/typography.html)、[颜色](https://www.google.com/design/spec/style/color.html)
 
@@ -55,9 +55,9 @@ title: '[译] 在 Material Design 中表现品牌性'
 
 [Roboto](https://www.google.com/design/spec/style/typography.html) 是 Android 系统中的默认字体，但不意味着是 Material Design 中的唯一字体。我们相信最好的字体是那些能够体现你的品牌的。字体使得性格特点更丰满。然而，将一个优秀的字体随意地在真个界面设计中运用可能并不能发挥出它的作用。这就是为什么 Material 的字体指南着眼于印刷品设计并非常关注其如何使用 —— 层次、基线网格、透明度、尺寸。
 
-![8_key_typeface](http://yczim.qiniudn.com/2017-03-26-8_key_typeface.png)
+![8_key_typeface]({{ site.cdn_url }}/blog/posts/2017-03-26-8_key_typeface.png)
 
-![9_key_typeface](http://yczim.qiniudn.com/2017-03-26-9_key_typeface.jpg)
+![9_key_typeface]({{ site.cdn_url }}/blog/posts/2017-03-26-9_key_typeface.jpg)
 
 **Crane Air** 使用明显的字体层次来展现关键信息，使用超大和加粗字体来显示登基信息。而参考基线和尺寸建议依然满足 Material Design 的要求。**The Fortnightly**，使用两种字体分别显示新闻的标题和正文。
 
@@ -78,7 +78,7 @@ title: '[译] 在 Material Design 中表现品牌性'
 
 你可以使用很轻松的配合你的品牌色使用这套规范，根据界面元素的重要程度来将元素划分成深浅不一的。挑选一个不错的高对比的强调色用于界面上最主要的操作引导，比如浮动按钮(FAB)。对于内容丰富的品牌，有图片或者很多颜色，可以考虑在界面中使用更加中性或微妙的颜色主题。
 
-![10_key_color](http://yczim.qiniudn.com/2017-03-26-10_key_color.jpg)
+![10_key_color]({{ site.cdn_url }}/blog/posts/2017-03-26-10_key_color.jpg)
 
 尽管 The Fortnightly 没有品牌标识上没有颜色，但它同时使用黑色和白色形成层次和对比，其中的颜色主要来自于内容。Abisko 的主体颜色是黑色，与屏幕中亮色和彩色的形成对比。Shrine 的配色包含两种强调色，虽然使用了两种亮色强调色，但白色背景上使用得当获得了平衡良好的对比。
 
@@ -93,7 +93,7 @@ title: '[译] 在 Material Design 中表现品牌性'
 
 如果你有机会，为你的产品设计标识性特征语言。图片、形状以及图标需要统筹一致考虑，不论在表征上相似，还是有意差异化。比如，如果你的产品贯穿着醒目的、高饱和度的图形和图标，那么就要考虑使用一样特征的照片。如果你的应用里，使用了各种各样的图片，那么考虑周边的字体、网格等等其他设计元素如何才能帮助营造视觉一致性。当我们谈论图片时，最重要的事情就是创造一个协调相称的风格，然后明智而审慎地在你的整个UI设计中使用。
 
-![14-article_brand_inline](http://yczim.qiniudn.com/2017-03-26-14-article_brand_inline.jpg)
+![14-article_brand_inline]({{ site.cdn_url }}/blog/posts/2017-03-26-14-article_brand_inline.jpg)
 
 **Abisko** 保持使用像对角斜线等关键的图形元素，以提供一种连续性和活动性。Abisko 中使用的图片与界面中醒目的图形色彩元素相匹配。**Shrine** 在使用大量白底图片的过程中也保持了视觉风格的一贯性。彩色的小小的钻石网格在白底上凸显，避免了界面的过分单调。因为照片是 **Shrine** 中最重要的部分，因此使用大面积贴片，将大部分面积用于图片展示。
 
@@ -106,7 +106,7 @@ title: '[译] 在 Material Design 中表现品牌性'
 
 品牌的声音应当在产品体验的所有元素中被承载。从普通的文书，到通知，到错误信息和CTAs（不知道是什么）。如果你的产品就是个性化的，服务于年轻人的，不要让你的通知铃声像是机器人发出的。同样的，你不该在产品中使用行话俚语等，这些会对简单的交互操作都造成阻碍。抓住机会尽可能使用手势和交互模式去引导用户，而不是使用大量的文字说明。记住你是在为品牌创建人物画像。它应该突出你的品牌风格，但不能影响功能的正常使用。
 
-![12_raise_your_voice](http://yczim.qiniudn.com/2017-03-26-12_raise_your_voice.png)
+![12_raise_your_voice]({{ site.cdn_url }}/blog/posts/2017-03-26-12_raise_your_voice.png)
 
 **The Fortnightly** 集合了世界上最流行的几家报纸的新闻，因此主要的品牌标准和特点来源于编辑的文章。辅助性的新闻品牌名字清晰明朗，帮助读者理解如何分享和归档阅读材料。**Pesto** 将重点放在了精致有感染力的美味上。信息直接导向那些厨房达人们。**Abisko** 则服务于滑雪重度爱好者们，在产品中间断使用专业术语以清晰地和匹配用户表达。
 

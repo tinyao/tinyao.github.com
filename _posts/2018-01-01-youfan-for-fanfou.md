@@ -46,17 +46,17 @@ date: 2018-01-01 23:20
 
 **日活**：从最初三两人，到最近 160 人/天
 
-![Daily Active](http://yczim.qiniudn.com/blog/youfan_daily_active.jpg)
+![Daily Active]({{ site.cdn_url }}/blog/posts/youfan_daily_active.jpg)
 
 **留存情况**：相对 700 的月活，160+ 的日活已经很满意了
 
-![Retention](http://yczim.qiniudn.com/blog/youfan_retention.jpg)
+![Retention]({{ site.cdn_url }}/blog/posts/youfan_retention.jpg)
 
 **用户增长**：一般是「饭否红人」转发或者新版本发布会带动一次增长。
-![Daily Active New](http://yczim.qiniudn.com/blog/youfan_daily_active_new.jpg)
+![Daily Active New]({{ site.cdn_url }}/blog/posts/youfan_daily_active_new.jpg)
 
 **发饭条数**：只有一个月的统计，12 月 31 号，大家都在感慨时光飞逝。
-![Status Count](http://yczim.qiniudn.com/blog/youfan_status_count_success.jpg)
+![Status Count]({{ site.cdn_url }}/blog/posts/youfan_status_count_success.jpg)
 
 ---
 

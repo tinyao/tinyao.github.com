@@ -4,7 +4,7 @@ status: public
 title: '又换博客主题了'
 ---
 
-![jekyll-theme-scribble](http://yczim.qiniudn.com/2017-03-26-jekyll-theme-scribble.png)
+![jekyll-theme-scribble]({{ site.cdn_url }}/blog/posts/2017-03-26-jekyll-theme-scribble.png)
 
 折腾博客虽然没有以前那么多，但文章写得少，所以每次回到blog，更多得还真都是在捣鼓这那的。偶然在 [@Rei](http://chloerei.com/) 的博客，看到了所用的主题 [Scribble](http://github.com/chloerei/scribble)，被极其简单朴素的风格触动到了啊。遂一狠心，就把之前修修整整过好多次的 blog 换上了新皮肤。
 

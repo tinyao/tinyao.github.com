@@ -117,7 +117,7 @@ query.findAll();
 
 所以，Realm 从使用上，相比已经很好的 ORMLite 还是更直观易懂。对于没有太多业务要求的应用来说，完全可以满足取代 SQLite 的需要。最重要的是它的速度惊人，Realm在做查询时的 benchmarks 是 SQLite 的7倍，以至于你可以在本地进行数据库操作，即便是大量缓存数据的查询检索，都可以在 UI 主线程完成，无需担心 ARN，也就避免了多线程操作间可能存在的线程不安全问题。
 
-![realm-sqlite-benchmark](http://yczim.qiniudn.com/2017-03-26-realm-sqlite-benchmark.png)
+![realm-sqlite-benchmark]({{ site.cdn_url }}/blog/posts/2017-03-26-realm-sqlite-benchmark.png)
 
 ## Realm 的其他特性
 
