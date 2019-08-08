@@ -6,7 +6,7 @@ logo_url:           http://zico.oss-cn-beijing.aliyuncs.com/blog/author_avatar.j
 cdn_url:            http://zico.oss-cn-beijing.aliyuncs.com
 
 # Site Settings
-url:                https://tinyao.me # main url
+url:                https://tinyao.github.io # main url
 permalink:          /:title # Post permalink
 timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
