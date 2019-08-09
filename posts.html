@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section>
+
+	{% for post in site.posts %}
+		
+		<ul>
+			<li>
+				<div class="post-date">
+					<span>{{ post.date | date: "%d %b %Y" }}</span>
+				</div>
+				<div class="title">
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+				</div>
+			</li>
+		</ul>
+
+	{% endfor %}
+
+</section>
