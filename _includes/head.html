@@ -10,9 +10,9 @@
 
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-<link rel="icon" href="{{ "/assets/images/favicon.png" | prepend: site.cdn_url }}">
-<link rel="apple-touch-icon" href="{{ "/assets/images/touch-icon.png" | prepend: site.cdn_url }}">
-<link rel="stylesheet" href="{{ "/assets/css/006E3E5F335CC85E5.css" | prepend: site.cdn_url }}">
+<link rel="icon" href="{{ "/assets/images/favicon.png" | prepend: site.oss_url }}">
+<link rel="apple-touch-icon" href="{{ "/assets/images/touch-icon.png" | prepend: site.oss_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/006E3E5F335CC85E5.css" | prepend: site.oss_url }}">
 <link rel="stylesheet" href="{{ "/assets/core.css" | prepend: site.url }}">
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}" />
