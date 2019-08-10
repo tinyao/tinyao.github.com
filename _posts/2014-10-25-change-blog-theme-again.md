@@ -3,7 +3,7 @@ date: 2014-10-25 14:52
 status: public
 title: '又换博客主题了'
 excerpt: 一年一度的折腾博客时间又到了，换了个 minimal 主题
-cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/2017-03-26-jekyll-theme-scribble.png
+cover: https://zico.oss-cn-beijing.aliyuncs.com/blog/posts/2017-03-26-jekyll-theme-scribble.png
 ---
 
 ![jekyll-theme-scribble]({{ site.cdn_url }}/blog/posts/2017-03-26-jekyll-theme-scribble.png)

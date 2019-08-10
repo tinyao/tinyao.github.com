@@ -48,17 +48,17 @@ excerpt: 争取做到饭否上最好看好用的 Android 客户端
 
 **日活**：从最初三两人，到最近 160 人/天
 
-![Daily Active]( http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_daily_active.jpg)
+![Daily Active]( https://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_daily_active.jpg)
 
 **留存情况**：相对 700 的月活，160+ 的日活已经很满意了
 
-![Retention]( http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_retention.jpg)
+![Retention]( https://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_retention.jpg)
 
 **用户增长**：一般是「饭否红人」转发或者新版本发布会带动一次增长。
-![Daily Active New]( http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_daily_active_new.jpg)
+![Daily Active New]( https://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_daily_active_new.jpg)
 
 **发饭条数**：只有一个月的统计，12 月 31 号，大家都在感慨时光飞逝。
-![Status Count]( http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_status_count_success.jpg)
+![Status Count]( https://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_status_count_success.jpg)
 
 ---
 

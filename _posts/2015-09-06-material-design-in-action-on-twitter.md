@@ -2,7 +2,7 @@
 title: Material Design in Action - Wing for Twitter
 updated: 2015-09-06 15:56
 excerpt: 使用 Material Design 设计一个 Twitter 客户端。
-cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/2017-03-26-wing-cover.png
+cover: https://zico.oss-cn-beijing.aliyuncs.com/blog/posts/2017-03-26-wing-cover.png
 ---
 
 ![wing-cover]({{ site.cdn_url }}/blog/posts/2017-03-26-wing-cover.png)

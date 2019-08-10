@@ -3,7 +3,7 @@ title: 有饭的启动速度优化
 date: 2018-09-11 20:30
 tag: 有饭,技术,Android
 excerpt: 给有饭做次小手术，提升 50% 的启动速度
-cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png
+cover: https://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png
 ---
 
 
@@ -11,7 +11,7 @@ cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png
 
 这两天工作稍有空，就拿半年未更新的「有饭」来做个试验。先从观感上看下优化前后的对比 (放慢一倍速度)。
 
-<video id="video" class="wrap" controls="" controlsList="nodownload" preload="none" poster="http://zico.oss-cn-beijing.aliyuncs.com/blog/youfan-opt-cover.png" type="video/mp4" style="display: block;width: 100%;"><source src="http://zico.oss-cn-beijing.aliyuncs.com/blog/youfan-opt.mp4"></video>
+<video id="video" class="wrap" controls="" controlsList="nodownload" preload="none" poster="https://zico.oss-cn-beijing.aliyuncs.com/blog/youfan-opt-cover.png" type="video/mp4" style="display: block;width: 100%;"><source src="https://zico.oss-cn-beijing.aliyuncs.com/blog/youfan-opt.mp4"></video>
 
 以 ActivityManager 统计的第一个 Activity Displayed 时间为标准。在我服役多年的 OnePlus 3T 上，优化前在 820ms 左右，优化后在 468ms 左右，加速 40%；
 
@@ -21,7 +21,7 @@ cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png
 
 首先来回顾下应用冷启动的过程（这里先不谈 framework 层细节）：
 
-![-w922](http://zico.oss-cn-beijing.aliyuncs.com/blog/0_app_startup.jpg)
+![-w922](https://zico.oss-cn-beijing.aliyuncs.com/blog/0_app_startup.jpg)
 
 1. 加载并启动 App
 2. 系统立即展示出一个空白窗口
@@ -61,13 +61,13 @@ cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png
 
 我们先用 Android Studio 的 Profiler 来抓取一下有饭的启动过程。
 
-![1. 启动过程](http://zico.oss-cn-beijing.aliyuncs.com/blog/1_youfan_startup.png)
+![1. 启动过程](https://zico.oss-cn-beijing.aliyuncs.com/blog/1_youfan_startup.png)
 
 从图中主线程的执行情况，我们可以看到几个耗时大户，下面我们逐个分析：
 
 ### Application onCreate
 
-![2. application oncreate](http://zico.oss-cn-beijing.aliyuncs.com/blog/2_application%20oncreate.png)
+![2. application oncreate](https://zico.oss-cn-beijing.aliyuncs.com/blog/2_application%20oncreate.png)
 
 可以看出 Applicaitioin 的 onCreate 存在几个比较耗时的任务：
 
@@ -79,7 +79,7 @@ cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png
 
 ### Activity onCreate
 
-![3. activity_oncreate](http://zico.oss-cn-beijing.aliyuncs.com/blog/3_activity_oncreate.png)
+![3. activity_oncreate](https://zico.oss-cn-beijing.aliyuncs.com/blog/3_activity_oncreate.png)
 
 从图中可以看到，Activity 的 onCreate 过程的耗时主要是：
 
@@ -93,13 +93,13 @@ cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png
 
 ### 布局 onMeasure 和 onLayout 过程
 
-![4. viewpager_onmeasure](http://zico.oss-cn-beijing.aliyuncs.com/blog/4_viewpager_onmeasure.png)
+![4. viewpager_onmeasure](https://zico.oss-cn-beijing.aliyuncs.com/blog/4_viewpager_onmeasure.png)
 
 因为 ViewPager 设置了 offsetlimit 为 2，所以一次性要 measure 三个 Fragment 的布局，并且详细查看后第三个 Fragment 还格外耗时。
 
 解决的办法就是 ViewPager 的布局懒加载。ViewPager 同时加载三个 Fragment，但实际不需要三个的页面的布局都完整测算渲染出来。对此，可以用 ViewStub 将 Fragment 的主体布局用 ViewStub 收纳起来。等到 ViewPager 滑动到该页时，再 inflate 出完整的 view，然后加载数据。
 
-![5. viewpager_onlayout](http://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png)
+![5. viewpager_onlayout](https://zico.oss-cn-beijing.aliyuncs.com/blog/5_viewpager_onlayout.png)
 
 onLayout 的过程则可以看出 Html.fromHtml 函数占掉了近一般的耗时。 这个函数用于在将 N 条 html 文本显示在列表的 TextView 上。此前只大概了解这个方法的耗时，没想到这么严重。
 
