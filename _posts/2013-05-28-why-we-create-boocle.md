@@ -1,7 +1,7 @@
 ---
 date: 2013-05-28 13:14
 title: 为什么要做书圈
-excerpt: 书圈的诞生的一些背景
+excerpt: 书圈诞生的一些背景
 cover: https://tinyao.oss-cn-beijing.aliyuncs.com/pc4i8.png
 ---
 
