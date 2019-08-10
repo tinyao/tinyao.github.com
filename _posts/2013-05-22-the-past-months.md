@@ -2,6 +2,7 @@
 title: "过去几个月"
 url: 'the-past-month'
 date: 2013-05-22 13:14
+excerpt: 一点碎碎念
 ---
 
 就在这个午后，敲点字记录下这这学期有些混乱的日子。
@@ -23,5 +24,3 @@ date: 2013-05-22 13:14
 临毕业了，最后半个月。
 
 Learn to learn, Learn to work, Learn to live.
-
-

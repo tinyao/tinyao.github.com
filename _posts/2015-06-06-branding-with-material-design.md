@@ -1,6 +1,8 @@
 ---
 date: 2015-06-06 19:24
 title: '[译] 在 Material Design 中表现品牌性'
+cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/2017-03-26-0_article_banner.png
+excerpt: Material Design 提供了设计实用精美软件的一个系统方法。但如何将你的产品品牌融入到这个设计框架里？这里我们制作了一份在实践 Material Design 的同时保持品牌性的指南。
 ---
 
 ![0_article_banner]({{ site.cdn_url }}/blog/posts/2017-03-26-0_article_banner.png)

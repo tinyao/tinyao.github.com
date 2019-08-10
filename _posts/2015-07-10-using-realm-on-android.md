@@ -2,6 +2,8 @@
 title: 在 Android 中使用 Realm 替代 SQLite
 date: 2015-07-10 14:35
 url: using-realm-to-replace-sqlite-in-android
+excerpt: 最近兴起的 Realm，可以用来取代 SQLite 作为数据库吗？实际使用如何。
+cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/2017-03-26-realm-sqlite-benchmark.png
 ---
 
 [Realm](https://realm.io) 是最近兴起的一个专注于移动设备数据库的库，它可以用来取代 SQLite 和其他一些小型数据库，因为其核心是使用 C++ 编写，所以数据的存取速度比 SQLite 要快很多，同时避开了 SQL 相对繁琐的语句编写。最近在一款小 App 里使用了 Realm，总体来说，性能优秀，但由于 Realm 过于 Framework，以至于灵活性比较差，你会觉得很多地方被限制了。

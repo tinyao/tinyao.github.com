@@ -2,6 +2,8 @@
 date: 2014-10-25 14:52
 status: public
 title: '又换博客主题了'
+excerpt: 一年一度的折腾博客时间又到了，换了个 minimal 主题
+cover: http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/2017-03-26-jekyll-theme-scribble.png
 ---
 
 ![jekyll-theme-scribble]({{ site.cdn_url }}/blog/posts/2017-03-26-jekyll-theme-scribble.png)
@@ -13,4 +15,3 @@ title: '又换博客主题了'
 今年以来 [Ghost](http://ghost.org) 开始流行，风格大气、简单干脆确实颇为符合心意。由于起基于 Node，暂时没找到速度良好的 Hosting，Ghost 的官方 Hosting 服务每月也要 5 刀。学生党消费不起。（已经砸了钱买曲径了）
 
 一圈绕回来，还是回到 Jekyll，只是换了个主题 ==
-

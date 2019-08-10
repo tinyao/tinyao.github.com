@@ -1,6 +1,8 @@
 ---
 title: 有饭，一款白白的饭否 Android 客户端
 date: 2018-01-01 23:20
+cover: https://tinyao.oss-cn-beijing.aliyuncs.com/6prbe.jpg
+excerpt: 争取做到饭否上最好看好用的 Android 客户端
 ---
 
 今天，也就是 2018 年 1 月 1 日，有饭刚好发布两个月整。11 月 1 日，我在饭否上低调地发了条消息，宣布有饭测试版的发布。今天作为 2018 年的头一天，想着也梳理下有饭诞生的背景和这两个月的成长。
@@ -46,17 +48,17 @@ date: 2018-01-01 23:20
 
 **日活**：从最初三两人，到最近 160 人/天
 
-![Daily Active]({{ site.cdn_url }}/blog/posts/youfan_daily_active.jpg)
+![Daily Active]( http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_daily_active.jpg)
 
 **留存情况**：相对 700 的月活，160+ 的日活已经很满意了
 
-![Retention]({{ site.cdn_url }}/blog/posts/youfan_retention.jpg)
+![Retention]( http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_retention.jpg)
 
 **用户增长**：一般是「饭否红人」转发或者新版本发布会带动一次增长。
-![Daily Active New]({{ site.cdn_url }}/blog/posts/youfan_daily_active_new.jpg)
+![Daily Active New]( http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_daily_active_new.jpg)
 
 **发饭条数**：只有一个月的统计，12 月 31 号，大家都在感慨时光飞逝。
-![Status Count]({{ site.cdn_url }}/blog/posts/youfan_status_count_success.jpg)
+![Status Count]( http://zico.oss-cn-beijing.aliyuncs.com/blog/posts/youfan_status_count_success.jpg)
 
 ---
 

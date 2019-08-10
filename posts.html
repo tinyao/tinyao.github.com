@@ -2,21 +2,24 @@
 layout: default
 ---
 
-<section>
-
-	{% for post in site.posts %}
-		
-		<ul>
-			<li>
-				<div class="post-date">
+<section class="page-posts">
+	<div class="container">
+		<ul class="posts">
+			{% for post in site.posts %}
+			<li class="post-item">
+				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+					{% if post.cover %}
+						<div style="background-image: url({{post.cover}})" class="post-cover"></div>
+					{% endif %}
+						<h2 class="post-title">{{ post.title }}</h2>
+						<p class="post-date">{{ post.date | date: "%Y-%m-%d " }}</p>
+						<p class="post-excerpt">{{ post.excerpt }}</p>
+				</a>
+				<!-- <div class="post-date">
 					<span>{{ post.date | date: "%d %b %Y" }}</span>
-				</div>
-				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-				</div>
+				</div> -->
 			</li>
+			{% endfor %}
 		</ul>
-
-	{% endfor %}
-
+	</div>
 </section>
