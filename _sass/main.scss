@@ -1060,6 +1060,19 @@ code.about-tag {
     transition: all .25s cubic-bezier(.4, 0, 0, 1);
   }
 
+  .item-year {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: rgba(255,255,255,0.95);
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: rgba(0,0,0,0.2);
+    padding: 4px 20px;
+    border-radius: 60px;
+    letter-spacing: 1px;
+  }
+
   main img {
     pointer-events: none;
   }
