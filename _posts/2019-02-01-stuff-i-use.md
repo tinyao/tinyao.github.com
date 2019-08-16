@@ -10,10 +10,10 @@ cover: https://tinyao.oss-cn-beijing.aliyuncs.com/6c29b.png
 * **[OnePlus 7 Pro](https://www.oneplus.com/cn/7pro)**：继续留在 Android 阵营，90Hz 很流畅。不过还是羡煞 iOS 上优质应用和生态
 * **MacBook Pro 2015**：核心生产工具
 * [DELL U2518DR](https://item.jd.com/4396371.html) ：2K 显示器
-* [iKea BEKANT](https://www.ikea.cn/cn/zh/catalog/products/S29282589/)：书桌 120*80，纵深 80 很好
+* [iKea BEKANT](https://www.ikea.cn/cn/zh/catalog/products/S29282589/)：书桌 120*80，纵深 80 很宽裕
 * **AirPods**：最具幸福感耳机，即便对于 Android 设备
-* Kindle：乞丐版，性能不行，想换个 Kindle Oasis
-* Fuji x70：微单，直出色彩优秀，定焦无取景器
+* Kindle：乞丐版，性能不行了，想换个 Kindle Oasis
+* Fuji x70：微单，定焦无取景器，胜在富士的直出色彩
 
 
 ## 💾 软件
@@ -73,14 +73,14 @@ cover: https://tinyao.oss-cn-beijing.aliyuncs.com/6c29b.png
 #### 影像：
 
 * Lightroom CC：整理相机照片
-* **Google Photos**：好用是好用，但缺个 macOS 端
+* **Google Photos**：好用是好用，~~但缺个 macOS 端~~ Chrome 可以生成 PWA 独立应用。
 * VSCO/**Snapseed**：修图
 * [NOMO](https://apps.apple.com/us/app/nomo-point-and-shoot/id1362548649)：滤镜相机
 * 一闪/Vue：剪辑手机视频
 
 #### 其他：
 
-* **网易有钱**：记账是个好习惯，不过还没看到过正数
+* **网易有钱**：记账非常有意思
 * [Squash](https://realmacsoftware.com/squash)：图片压缩器，音效喜欢
 * [iText](https://toolinbox.net/iText)：macOS 菜单栏 OCR 小工具
 * **[iPic](https://toolinbox.net/iPic)**：macOS 菜单栏图床小工具，刚需好用 and take my money
