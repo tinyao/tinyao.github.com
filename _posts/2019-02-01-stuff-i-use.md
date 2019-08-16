@@ -11,7 +11,7 @@ cover: https://tinyao.oss-cn-beijing.aliyuncs.com/6c29b.png
 * **MacBook Pro 2015**：核心生产工具
 * [DELL U2518DR](https://item.jd.com/4396371.html) ：2K 显示器
 * [iKea BEKANT](https://www.ikea.cn/cn/zh/catalog/products/S29282589/)：书桌 120*80，纵深 80 很好
-* **AirPods**：最佳便携蓝牙耳机，即便用于 Android 设备
+* **AirPods**：最具幸福感耳机，即便对于 Android 设备
 * Kindle：乞丐版，性能不行，想换个 Kindle Oasis
 * Fuji x70：微单，直出色彩优秀，定焦无取景器
 

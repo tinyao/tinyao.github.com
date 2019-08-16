@@ -1105,7 +1105,7 @@ code.about-tag {
     }
   }
 
-  .s-fanfou {
+  .s-fanfou, .s-xinsheng {
     .inner-item {
       background: #E9ECF0;
     }
@@ -1118,6 +1118,11 @@ code.about-tag {
     .item-btn,
     .item-tags {
       color: #999;
+    }
+
+    .item-btn:hover {
+      background: rgba(0, 0, 0, 0.1);
+      color: #666;
     }
   }
 
@@ -1147,9 +1152,13 @@ code.about-tag {
     h1 {
       color: white;
     }
+
+    .s-moctown-img {
+      right: -180px;
+    }
   }
 
-  .s-xinsheng {
+  .s-jmf-academy {
     .inner-item {
       background: #80ABA9;
       color: white;
@@ -1158,7 +1167,30 @@ code.about-tag {
     h1 {
       color: white;
     }
+
   }
+
+  .s-taobao-wear {
+    .inner-item {
+      background: #F37042;
+      color: white;
+    }
+
+    h1 {
+      color: white;
+    }
+  }
+
+  // .s-xinsheng {
+  //   .inner-item {
+  //     background: #E9ECF0;
+  //     color: white;
+  //   }
+
+  //   h1 {
+  //     color: white;
+  //   }
+  // }
 
   .s-boocle {
     .inner-item {
@@ -1176,6 +1208,12 @@ code.about-tag {
       .inner-item {
         height: auto;
         ;
+      }
+
+      &.s-moctown {
+        .s-moctown-img {
+          margin-right: 30px;
+        }
       }
 
       .item-main {
@@ -1205,6 +1243,13 @@ code.about-tag {
         margin: 3em auto;
         width: auto;
         height: auto;
+      }
+
+      .item-year {
+        font-size: 0.8rem;
+        right: 15px;
+        bottom: 15px;
+        padding: 3px 15px;
       }
 
       .mobile-full-width {
