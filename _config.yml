@@ -7,7 +7,7 @@ cdn_url:            https://zico.oss-cn-beijing.aliyuncs.com
 oss_url:            https://tinyao.oss-cn-beijing.aliyuncs.com
 
 # Site Settings
-url:                https://tinyao.me  
+url:                https://zao.im
 permalink:          /:title # Post permalink
 timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
