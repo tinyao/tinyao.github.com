@@ -2,7 +2,7 @@
 title:              "皂皂 (tinyao)"
 description:        "关于生活成长的碎碎念"
 author_name:        "tinyao" # change this to your name
-logo_url:           https://zico.oss-cn-beijing.aliyuncs.com/blog/author_avatar.jpg # Get it from GitHub API: https://api.github.com/users/<username>
+logo_url:           https://tinyao.oss-cn-beijing.aliyuncs.com/assets/images/avatar-300.jpg # Get it from GitHub API: https://api.github.com/users/<username>
 cdn_url:            https://zico.oss-cn-beijing.aliyuncs.com
 oss_url:            https://tinyao.oss-cn-beijing.aliyuncs.com
 
