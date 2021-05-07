@@ -10,7 +10,7 @@ oss_url:            https://tinyao.oss-cn-beijing.aliyuncs.com
 url:                https://zao.im
 permalink:          /:title # Post permalink
 timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to 'false' to disable
+mathjax:            false  # enables support for mathjax - set to 'false' to disable
 
 # Site Build
 highlighter:        rouge
